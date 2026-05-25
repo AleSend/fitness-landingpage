@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PulseForm Personal Training</title>
+    <title>Gartenwerk Areal | Nutzflächen mieten</title>
     <meta
       name="description"
-      content="Moderne Landingpage fuer Personal Training mit Fitness-Paketen und Kontaktformular."
+      content="Flexible Nutzflaechen in einer ehemaligen Gaertnerei mieten: Gewaechshaus, Lager, Werkstatt und Aussenflaechen fuer Gewerbe, Handwerk und Projekte."
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -16,14 +16,11 @@
             colors: {
               carbon: "#111315",
               graphite: "#202327",
-              neon: "#38BDF8",
-              "neon-soft": "#7DD3FC",
+              accent: "#4F8FBF",
+              "accent-soft": "#7AAED0",
             },
             fontFamily: {
               sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
-            },
-            boxShadow: {
-              glow: "0 0 42px rgba(56, 189, 248, 0.28)",
             },
           },
         },
@@ -31,151 +28,182 @@
     </script>
   </head>
   <body class="bg-carbon text-white antialiased">
-    <header class="border-b border-white/10 bg-carbon/90 backdrop-blur">
+    <header class="sticky top-0 z-50 border-b border-white/10 bg-carbon/90 backdrop-blur">
       <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 sm:px-8">
-        <a href="#" class="text-lg font-black uppercase tracking-wide text-neon">
-          PulseForm
+        <a href="#" class="text-lg font-black uppercase tracking-wide text-accent">
+          Gartenwerk Areal
         </a>
         <div class="hidden items-center gap-8 text-sm font-semibold text-zinc-300 sm:flex">
-          <a class="transition hover:text-neon" href="#pakete">Pakete</a>
-          <a class="transition hover:text-neon" href="#kontakt">Kontakt</a>
+          <a class="transition hover:text-accent" href="#flaechen">Flächen</a>
+          <a class="transition hover:text-accent" href="#vorteile">Vorteile</a>
+          <a class="transition hover:text-accent" href="#kontakt">Anfrage</a>
         </div>
         <a
           href="#kontakt"
-          class="rounded-full bg-neon px-5 py-2.5 text-sm font-extrabold text-carbon transition hover:bg-neon-soft focus:outline-none focus:ring-4 focus:ring-neon/30"
+          class="rounded-full bg-accent px-5 py-2.5 text-sm font-extrabold text-white transition hover:bg-accent-soft focus:outline-none focus:ring-4 focus:ring-accent/20"
         >
-          Starten
+          Besichtigung
         </a>
       </nav>
     </header>
 
     <main>
       <section class="relative isolate overflow-hidden">
-        <div class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_25%_20%,rgba(56,189,248,0.22),transparent_32%),linear-gradient(135deg,#111315_0%,#181b1f_48%,#262a2f_100%)]"></div>
-        <div class="mx-auto grid min-h-[calc(100vh-82px)] max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:py-20">
+        <div class="absolute inset-0 -z-10 bg-[linear-gradient(135deg,#111315_0%,#171b1d_48%,#24282b_100%)]"></div>
+        <div class="mx-auto grid min-h-[calc(100vh-82px)] max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1fr_0.95fr] lg:py-20">
           <div class="max-w-3xl">
-            <p class="mb-5 inline-flex rounded-full border border-neon/40 bg-neon/10 px-4 py-2 text-sm font-bold uppercase tracking-wide text-neon">
-              1:1 Coaching. Klare Ziele. Messbare Staerke.
+            <p class="mb-5 inline-flex rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm font-bold uppercase tracking-wide text-accent">
+              Flexible Nutzflächen in gewachsener Infrastruktur
             </p>
             <h1 class="text-5xl font-black leading-[0.95] tracking-normal text-white sm:text-6xl lg:text-7xl">
-              Trainiere smarter. Werde staerker.
+              Raum für Handwerk, Lager und neue Ideen.
             </h1>
             <p class="mt-7 max-w-2xl text-lg leading-8 text-zinc-300 sm:text-xl">
-              Personal Training fuer Menschen, die mehr Energie, saubere Technik und echte Routinen wollen.
-              Individuelle Plaene, klare Progression und Coaching, das in deinen Alltag passt.
+              Mieten Sie vielseitige Flächen auf dem Gelände einer ehemaligen Gärtnerei:
+              wettergeschützte Bereiche, Außenflächen und funktionale Räume für Gewerbe,
+              Produktion, Lagerung oder saisonale Projekte.
             </p>
             <div class="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
                 href="#kontakt"
-                class="inline-flex items-center justify-center rounded-full bg-neon px-8 py-4 text-base font-black text-carbon shadow-glow transition hover:-translate-y-0.5 hover:bg-neon-soft focus:outline-none focus:ring-4 focus:ring-neon/30"
+                class="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-base font-black text-white transition hover:bg-accent-soft focus:outline-none focus:ring-4 focus:ring-accent/20"
               >
-                Kostenloses Erstgespraech
+                Fläche anfragen
               </a>
               <a
-                href="#pakete"
-                class="inline-flex items-center justify-center rounded-full border border-white/15 px-8 py-4 text-base font-bold text-white transition hover:border-neon hover:text-neon"
+                href="#flaechen"
+                class="inline-flex items-center justify-center rounded-full border border-white/15 px-8 py-4 text-base font-bold text-white transition hover:border-accent hover:text-accent"
               >
-                Pakete ansehen
+                Angebote ansehen
               </a>
             </div>
           </div>
 
           <div class="relative">
-            <div class="aspect-[4/5] overflow-hidden rounded-[2rem] border border-white/10 bg-graphite shadow-2xl">
+            <div class="aspect-[4/5] overflow-hidden rounded-3xl border border-white/10 bg-graphite shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1200&q=80"
-                alt="Athlet beim Krafttraining im Gym"
+                src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1200&q=80"
+                alt="Ehemalige Gärtnerei mit Gewächshaus und Nutzflächen"
                 class="h-full w-full object-cover"
               />
             </div>
-            <div class="absolute -bottom-5 left-4 right-4 rounded-3xl border border-neon/30 bg-carbon/90 p-5 shadow-glow backdrop-blur sm:left-auto sm:w-72">
-              <p class="text-sm font-bold uppercase tracking-wide text-neon">Heute starten</p>
-              <p class="mt-2 text-3xl font-black">+23%</p>
-              <p class="text-sm text-zinc-300">mehr Trainingskonstanz nach 8 Wochen Coaching.</p>
+            <div class="absolute -bottom-5 left-4 right-4 rounded-2xl border border-white/10 bg-carbon/95 p-5 shadow-xl backdrop-blur sm:left-auto sm:w-80">
+              <p class="text-sm font-bold uppercase tracking-wide text-accent">Schnell verfügbar</p>
+              <p class="mt-2 text-3xl font-black">ab 25 m²</p>
+              <p class="text-sm text-zinc-300">Teilflächen flexibel kombinierbar und nach Bedarf skalierbar.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="pakete" class="bg-zinc-950 px-5 py-20 sm:px-8">
+      <section id="flaechen" class="bg-zinc-950 px-5 py-20 sm:px-8">
         <div class="mx-auto max-w-7xl">
           <div class="max-w-2xl">
-            <p class="text-sm font-black uppercase tracking-wide text-neon">Fitness-Pakete</p>
+            <p class="text-sm font-black uppercase tracking-wide text-accent">Mietflächen</p>
             <h2 class="mt-3 text-4xl font-black tracking-normal sm:text-5xl">
-              Waehle dein Trainingslevel.
+              Passende Fläche für Ihren Betrieb.
             </h2>
             <p class="mt-4 text-lg leading-8 text-zinc-300">
-              Von Technikaufbau bis kompletter Transformation: jedes Paket wird persoenlich auf Ziel,
-              Fitnesslevel und Zeitplan abgestimmt.
+              Ob kurzfristiger Lagerbedarf oder langfristiger Standort: Wir stimmen Größe,
+              Nutzung und Zugang gemeinsam auf Ihr Vorhaben ab.
             </p>
           </div>
 
           <div class="mt-12 grid gap-6 lg:grid-cols-3">
-            <article class="rounded-3xl border border-white/10 bg-graphite p-7 transition hover:-translate-y-1 hover:border-neon/60">
-              <h3 class="text-2xl font-black">Starter</h3>
-              <p class="mt-3 text-zinc-300">Perfekt fuer Einstieg, Technik und Trainingsstruktur.</p>
-              <p class="mt-8 text-5xl font-black text-neon">149 EUR</p>
-              <p class="mt-1 text-sm text-zinc-400">pro Monat</p>
+            <article class="rounded-3xl border border-white/10 bg-graphite p-7 transition hover:-translate-y-1 hover:border-accent/60">
+              <h3 class="text-2xl font-black">Gewächshausflächen</h3>
+              <p class="mt-3 text-zinc-300">Helle, geschützte Flächen für Anzucht, Lagerung, Material oder kreative Produktion.</p>
+              <p class="mt-8 text-5xl font-black text-accent">ab 6 EUR</p>
+              <p class="mt-1 text-sm text-zinc-400">pro m² / Monat</p>
               <ul class="mt-8 space-y-3 text-sm text-zinc-200">
-                <li>2 Personal-Training-Sessions</li>
-                <li>Individueller Trainingsplan</li>
-                <li>Technikcheck und Zielanalyse</li>
+                <li>Lichtdurchflutete Bestandsflächen</li>
+                <li>Teilflächen ab ca. 25 m²</li>
+                <li>Nach Absprache mit Strom und Wasser</li>
               </ul>
-              <button class="package-button mt-8 w-full rounded-full border border-neon px-5 py-3 font-black text-neon transition hover:bg-neon hover:text-carbon" data-package="Starter">
-                Paket anfragen
+              <button class="space-button mt-8 w-full rounded-full border border-accent px-5 py-3 font-black text-accent transition hover:bg-accent hover:text-carbon" data-space="Gewächshausflächen">
+                Fläche anfragen
               </button>
             </article>
 
-            <article class="relative rounded-3xl border border-neon bg-carbon p-7 shadow-glow transition hover:-translate-y-1">
-              <span class="absolute right-6 top-6 rounded-full bg-neon px-3 py-1 text-xs font-black uppercase text-carbon">
-                Beliebt
+            <article class="relative rounded-3xl border border-accent/50 bg-carbon p-7 shadow-xl transition hover:-translate-y-1">
+              <span class="absolute right-6 top-6 rounded-full bg-accent px-3 py-1 text-xs font-black uppercase text-white">
+                Flexibel
               </span>
-              <h3 class="text-2xl font-black">Performance</h3>
-              <p class="mt-3 text-zinc-300">Mehr Kraft, bessere Routinen und konstante Begleitung.</p>
-              <p class="mt-8 text-5xl font-black text-neon">289 EUR</p>
-              <p class="mt-1 text-sm text-zinc-400">pro Monat</p>
+              <h3 class="text-2xl font-black">Lager & Werkstatt</h3>
+              <p class="mt-3 text-zinc-300">Robuste Nutzräume für Handwerk, Geräte, Waren oder kleine Produktionsabläufe.</p>
+              <p class="mt-8 text-5xl font-black text-accent">ab 9 EUR</p>
+              <p class="mt-1 text-sm text-zinc-400">pro m² / Monat</p>
               <ul class="mt-8 space-y-3 text-sm text-zinc-200">
-                <li>4 Personal-Training-Sessions</li>
-                <li>Ernaehrungsleitfaden</li>
-                <li>Woechentlicher Fortschrittscheck</li>
+                <li>Ebenerdiger Zugang möglich</li>
+                <li>Geeignet für Material und Maschinen</li>
+                <li>Individuelle Laufzeiten nach Bedarf</li>
               </ul>
-              <button class="package-button mt-8 w-full rounded-full bg-neon px-5 py-3 font-black text-carbon transition hover:bg-neon-soft" data-package="Performance">
-                Paket anfragen
+              <button class="space-button mt-8 w-full rounded-full bg-accent px-5 py-3 font-black text-white transition hover:bg-accent-soft" data-space="Lager & Werkstatt">
+                Fläche anfragen
               </button>
             </article>
 
-            <article class="rounded-3xl border border-white/10 bg-graphite p-7 transition hover:-translate-y-1 hover:border-neon/60">
-              <h3 class="text-2xl font-black">Elite</h3>
-              <p class="mt-3 text-zinc-300">Intensives Coaching fuer maximale Transformation.</p>
-              <p class="mt-8 text-5xl font-black text-neon">499 EUR</p>
-              <p class="mt-1 text-sm text-zinc-400">pro Monat</p>
+            <article class="rounded-3xl border border-white/10 bg-graphite p-7 transition hover:-translate-y-1 hover:border-accent/60">
+              <h3 class="text-2xl font-black">Außenflächen</h3>
+              <p class="mt-3 text-zinc-300">Freiflächen für Fahrzeuge, Container, Baustoffe, saisonale Nutzung oder Projektlogistik.</p>
+              <p class="mt-8 text-5xl font-black text-accent">ab 3 EUR</p>
+              <p class="mt-1 text-sm text-zinc-400">pro m² / Monat</p>
               <ul class="mt-8 space-y-3 text-sm text-zinc-200">
-                <li>8 Personal-Training-Sessions</li>
-                <li>Ernaehrungscoaching und Check-ins</li>
-                <li>Priorisierter Support per Nachricht</li>
+                <li>Skalierbare Parzellen</li>
+                <li>Gute Anfahrbarkeit auf dem Gelände</li>
+                <li>Kurz- und Langzeitmiete möglich</li>
               </ul>
-              <button class="package-button mt-8 w-full rounded-full border border-neon px-5 py-3 font-black text-neon transition hover:bg-neon hover:text-carbon" data-package="Elite">
-                Paket anfragen
+              <button class="space-button mt-8 w-full rounded-full border border-accent px-5 py-3 font-black text-accent transition hover:bg-accent hover:text-carbon" data-space="Außenflächen">
+                Fläche anfragen
               </button>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="kontakt" class="bg-carbon px-5 py-20 sm:px-8">
+      <section id="vorteile" class="bg-carbon px-5 py-20 sm:px-8">
+        <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+          <div>
+            <p class="text-sm font-black uppercase tracking-wide text-accent">Warum das Areal</p>
+            <h2 class="mt-3 text-4xl font-black tracking-normal sm:text-5xl">
+              Bestehende Substanz, sofort nutzbar.
+            </h2>
+          </div>
+          <div class="grid gap-5 sm:grid-cols-2">
+            <div class="rounded-3xl border border-white/10 bg-graphite p-6">
+              <h3 class="text-xl font-black">Flexible Größen</h3>
+              <p class="mt-3 text-zinc-300">Kleine Einheiten, kombinierte Flächen oder schrittweise Erweiterung.</p>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-graphite p-6">
+              <h3 class="text-xl font-black">Praktische Infrastruktur</h3>
+              <p class="mt-3 text-zinc-300">Zufahrt, Bestandsflächen und nutzungsnahe Anschlüsse nach Vereinbarung.</p>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-graphite p-6">
+              <h3 class="text-xl font-black">Faire Laufzeiten</h3>
+              <p class="mt-3 text-zinc-300">Von saisonaler Zwischennutzung bis langfristiger Miete.</p>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-graphite p-6">
+              <h3 class="text-xl font-black">Direkte Abstimmung</h3>
+              <p class="mt-3 text-zinc-300">Besichtigung, Nutzungsklärung und Angebot ohne lange Umwege.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontakt" class="bg-zinc-950 px-5 py-20 sm:px-8">
         <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr]">
           <div>
-            <p class="text-sm font-black uppercase tracking-wide text-neon">Kontakt</p>
+            <p class="text-sm font-black uppercase tracking-wide text-accent">Anfrage</p>
             <h2 class="mt-3 text-4xl font-black tracking-normal sm:text-5xl">
-              Bereit fuer dein naechstes Level?
+              Welche Fläche passt zu Ihnen?
             </h2>
             <p class="mt-5 text-lg leading-8 text-zinc-300">
-              Schreib kurz, was du erreichen willst. Du bekommst zeitnah eine Rueckmeldung fuer ein
-              unverbindliches Erstgespraech.
+              Senden Sie uns Ihren Bedarf mit gewünschter Größe und Nutzung. Wir melden uns mit
+              passenden Optionen und einem Termin zur Besichtigung.
             </p>
           </div>
 
-          <form id="contactForm" class="rounded-3xl border border-white/10 bg-graphite p-6 shadow-2xl sm:p-8">
+          <form id="contactForm" class="rounded-3xl border border-white/10 bg-graphite p-6 shadow-xl sm:p-8">
             <div class="grid gap-5 sm:grid-cols-2">
               <label class="block">
                 <span class="mb-2 block text-sm font-bold text-zinc-200">Name</span>
@@ -183,8 +211,8 @@
                   required
                   name="name"
                   type="text"
-                  class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-neon focus:ring-4 focus:ring-neon/10"
-                  placeholder="Dein Name"
+                  class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-accent focus:ring-4 focus:ring-accent/10"
+                  placeholder="Ihr Name"
                 />
               </label>
               <label class="block">
@@ -193,50 +221,61 @@
                   required
                   name="email"
                   type="email"
-                  class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-neon focus:ring-4 focus:ring-neon/10"
-                  placeholder="du@example.com"
+                  class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-accent focus:ring-4 focus:ring-accent/10"
+                  placeholder="name@firma.de"
+                />
+              </label>
+            </div>
+
+            <div class="mt-5 grid gap-5 sm:grid-cols-2">
+              <label class="block">
+                <span class="mb-2 block text-sm font-bold text-zinc-200">Gewünschte Fläche</span>
+                <select
+                  id="spaceSelect"
+                  name="space"
+                  class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition focus:border-accent focus:ring-4 focus:ring-accent/10"
+                >
+                  <option>Gewächshausflächen</option>
+                  <option selected>Lager & Werkstatt</option>
+                  <option>Außenflächen</option>
+                </select>
+              </label>
+              <label class="block">
+                <span class="mb-2 block text-sm font-bold text-zinc-200">Größe</span>
+                <input
+                  name="size"
+                  type="text"
+                  class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-accent focus:ring-4 focus:ring-accent/10"
+                  placeholder="z. B. 80 m²"
                 />
               </label>
             </div>
 
             <label class="mt-5 block">
-              <span class="mb-2 block text-sm font-bold text-zinc-200">Gewuenschtes Paket</span>
-              <select
-                id="packageSelect"
-                name="package"
-                class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition focus:border-neon focus:ring-4 focus:ring-neon/10"
-              >
-                <option>Starter</option>
-                <option selected>Performance</option>
-                <option>Elite</option>
-              </select>
-            </label>
-
-            <label class="mt-5 block">
-              <span class="mb-2 block text-sm font-bold text-zinc-200">Nachricht</span>
+              <span class="mb-2 block text-sm font-bold text-zinc-200">Nutzung / Nachricht</span>
               <textarea
                 required
                 name="message"
                 rows="5"
-                class="w-full resize-none rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-neon focus:ring-4 focus:ring-neon/10"
-                placeholder="Was ist dein Ziel?"
+                class="w-full resize-none rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-accent focus:ring-4 focus:ring-accent/10"
+                placeholder="Wofür möchten Sie die Fläche nutzen?"
               ></textarea>
             </label>
 
             <button
               type="submit"
-              class="mt-6 w-full rounded-full bg-neon px-8 py-4 text-base font-black text-carbon shadow-glow transition hover:bg-neon-soft focus:outline-none focus:ring-4 focus:ring-neon/30"
+              class="mt-6 w-full rounded-full bg-accent px-8 py-4 text-base font-black text-white transition hover:bg-accent-soft focus:outline-none focus:ring-4 focus:ring-accent/20"
             >
               Anfrage senden
             </button>
-            <p id="formMessage" class="mt-5 hidden rounded-2xl border border-neon/30 bg-neon/10 px-4 py-3 text-sm font-bold text-neon"></p>
+            <p id="formMessage" class="mt-5 hidden rounded-2xl border border-accent/30 bg-accent/10 px-4 py-3 text-sm font-bold text-accent"></p>
           </form>
         </div>
       </section>
     </main>
 
-    <footer class="border-t border-white/10 bg-zinc-950 px-5 py-8 text-center text-sm text-zinc-400 sm:px-8">
-      <p>© 2026 PulseForm Personal Training. Stark starten, dranbleiben, sichtbar wachsen.</p>
+    <footer class="border-t border-white/10 bg-carbon px-5 py-8 text-center text-sm text-zinc-400 sm:px-8">
+      <p>© 2026 Gartenwerk Areal. Nutzflächen in einer ehemaligen Gärtnerei.</p>
     </footer>
 
     <script src="script.js"></script>

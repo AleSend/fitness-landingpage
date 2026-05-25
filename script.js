@@ -1,11 +1,11 @@
 const contactForm = document.querySelector("#contactForm");
 const formMessage = document.querySelector("#formMessage");
-const packageSelect = document.querySelector("#packageSelect");
-const packageButtons = document.querySelectorAll(".package-button");
+const spaceSelect = document.querySelector("#spaceSelect");
+const spaceButtons = document.querySelectorAll(".space-button");
 
-packageButtons.forEach((button) => {
+spaceButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    packageSelect.value = button.dataset.package;
+    spaceSelect.value = button.dataset.space;
     document.querySelector("#kontakt").scrollIntoView({ behavior: "smooth" });
   });
 });
@@ -15,10 +15,10 @@ contactForm.addEventListener("submit", (event) => {
 
   const formData = new FormData(contactForm);
   const name = formData.get("name").trim();
-  const selectedPackage = formData.get("package");
+  const selectedSpace = formData.get("space");
 
-  formMessage.textContent = `Danke, ${name}! Deine Anfrage fuer das ${selectedPackage}-Paket wurde erfolgreich vorbereitet. Wir melden uns zeitnah bei dir.`;
+  formMessage.textContent = `Danke, ${name}! Ihre Anfrage fuer ${selectedSpace} wurde vorbereitet. Wir melden uns zeitnah mit passenden Optionen und einem Besichtigungstermin.`;
   formMessage.classList.remove("hidden");
   contactForm.reset();
-  packageSelect.value = selectedPackage;
+  spaceSelect.value = selectedSpace;
 });
