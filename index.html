@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="de" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PulseForm Personal Training</title>
+    <meta
+      name="description"
+      content="Moderne Landingpage fuer Personal Training mit Fitness-Paketen und Kontaktformular."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              carbon: "#111315",
+              graphite: "#202327",
+              neon: "#B7FF2A",
+              "neon-soft": "#D9FF78",
+            },
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+            },
+            boxShadow: {
+              glow: "0 0 42px rgba(183, 255, 42, 0.25)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-carbon text-white antialiased">
+    <header class="border-b border-white/10 bg-carbon/90 backdrop-blur">
+      <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 sm:px-8">
+        <a href="#" class="text-lg font-black uppercase tracking-wide text-neon">
+          PulseForm
+        </a>
+        <div class="hidden items-center gap-8 text-sm font-semibold text-zinc-300 sm:flex">
+          <a class="transition hover:text-neon" href="#pakete">Pakete</a>
+          <a class="transition hover:text-neon" href="#kontakt">Kontakt</a>
+        </div>
+        <a
+          href="#kontakt"
+          class="rounded-full bg-neon px-5 py-2.5 text-sm font-extrabold text-carbon transition hover:bg-neon-soft focus:outline-none focus:ring-4 focus:ring-neon/30"
+        >
+          Starten
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="relative isolate overflow-hidden">
+        <div class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_25%_20%,rgba(183,255,42,0.20),transparent_32%),linear-gradient(135deg,#111315_0%,#181b1f_48%,#262a2f_100%)]"></div>
+        <div class="mx-auto grid min-h-[calc(100vh-82px)] max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:py-20">
+          <div class="max-w-3xl">
+            <p class="mb-5 inline-flex rounded-full border border-neon/40 bg-neon/10 px-4 py-2 text-sm font-bold uppercase tracking-wide text-neon">
+              1:1 Coaching. Klare Ziele. Messbare Staerke.
+            </p>
+            <h1 class="text-5xl font-black leading-[0.95] tracking-normal text-white sm:text-6xl lg:text-7xl">
+              Trainiere smarter. Werde staerker.
+            </h1>
+            <p class="mt-7 max-w-2xl text-lg leading-8 text-zinc-300 sm:text-xl">
+              Personal Training fuer Menschen, die mehr Energie, saubere Technik und echte Routinen wollen.
+              Individuelle Plaene, klare Progression und Coaching, das in deinen Alltag passt.
+            </p>
+            <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+              <a
+                href="#kontakt"
+                class="inline-flex items-center justify-center rounded-full bg-neon px-8 py-4 text-base font-black text-carbon shadow-glow transition hover:-translate-y-0.5 hover:bg-neon-soft focus:outline-none focus:ring-4 focus:ring-neon/30"
+              >
+                Kostenloses Erstgespraech
+              </a>
+              <a
+                href="#pakete"
+                class="inline-flex items-center justify-center rounded-full border border-white/15 px-8 py-4 text-base font-bold text-white transition hover:border-neon hover:text-neon"
+              >
+                Pakete ansehen
+              </a>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="aspect-[4/5] overflow-hidden rounded-[2rem] border border-white/10 bg-graphite shadow-2xl">
+              <img
+                src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1200&q=80"
+                alt="Athlet beim Krafttraining im Gym"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="absolute -bottom-5 left-4 right-4 rounded-3xl border border-neon/30 bg-carbon/90 p-5 shadow-glow backdrop-blur sm:left-auto sm:w-72">
+              <p class="text-sm font-bold uppercase tracking-wide text-neon">Heute starten</p>
+              <p class="mt-2 text-3xl font-black">+23%</p>
+              <p class="text-sm text-zinc-300">mehr Trainingskonstanz nach 8 Wochen Coaching.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pakete" class="bg-zinc-950 px-5 py-20 sm:px-8">
+        <div class="mx-auto max-w-7xl">
+          <div class="max-w-2xl">
+            <p class="text-sm font-black uppercase tracking-wide text-neon">Fitness-Pakete</p>
+            <h2 class="mt-3 text-4xl font-black tracking-normal sm:text-5xl">
+              Waehle dein Trainingslevel.
+            </h2>
+            <p class="mt-4 text-lg leading-8 text-zinc-300">
+              Von Technikaufbau bis kompletter Transformation: jedes Paket wird persoenlich auf Ziel,
+              Fitnesslevel und Zeitplan abgestimmt.
+            </p>
+          </div>
+
+          <div class="mt-12 grid gap-6 lg:grid-cols-3">
+            <article class="rounded-3xl border border-white/10 bg-graphite p-7 transition hover:-translate-y-1 hover:border-neon/60">
+              <h3 class="text-2xl font-black">Starter</h3>
+              <p class="mt-3 text-zinc-300">Perfekt fuer Einstieg, Technik und Trainingsstruktur.</p>
+              <p class="mt-8 text-5xl font-black text-neon">149 EUR</p>
+              <p class="mt-1 text-sm text-zinc-400">pro Monat</p>
+              <ul class="mt-8 space-y-3 text-sm text-zinc-200">
+                <li>2 Personal-Training-Sessions</li>
+                <li>Individueller Trainingsplan</li>
+                <li>Technikcheck und Zielanalyse</li>
+              </ul>
+              <button class="package-button mt-8 w-full rounded-full border border-neon px-5 py-3 font-black text-neon transition hover:bg-neon hover:text-carbon" data-package="Starter">
+                Paket anfragen
+              </button>
+            </article>
+
+            <article class="relative rounded-3xl border border-neon bg-carbon p-7 shadow-glow transition hover:-translate-y-1">
+              <span class="absolute right-6 top-6 rounded-full bg-neon px-3 py-1 text-xs font-black uppercase text-carbon">
+                Beliebt
+              </span>
+              <h3 class="text-2xl font-black">Performance</h3>
+              <p class="mt-3 text-zinc-300">Mehr Kraft, bessere Routinen und konstante Begleitung.</p>
+              <p class="mt-8 text-5xl font-black text-neon">289 EUR</p>
+              <p class="mt-1 text-sm text-zinc-400">pro Monat</p>
+              <ul class="mt-8 space-y-3 text-sm text-zinc-200">
+                <li>4 Personal-Training-Sessions</li>
+                <li>Ernaehrungsleitfaden</li>
+                <li>Woechentlicher Fortschrittscheck</li>
+              </ul>
+              <button class="package-button mt-8 w-full rounded-full bg-neon px-5 py-3 font-black text-carbon transition hover:bg-neon-soft" data-package="Performance">
+                Paket anfragen
+              </button>
+            </article>
+
+            <article class="rounded-3xl border border-white/10 bg-graphite p-7 transition hover:-translate-y-1 hover:border-neon/60">
+              <h3 class="text-2xl font-black">Elite</h3>
+              <p class="mt-3 text-zinc-300">Intensives Coaching fuer maximale Transformation.</p>
+              <p class="mt-8 text-5xl font-black text-neon">499 EUR</p>
+              <p class="mt-1 text-sm text-zinc-400">pro Monat</p>
+              <ul class="mt-8 space-y-3 text-sm text-zinc-200">
+                <li>8 Personal-Training-Sessions</li>
+                <li>Ernaehrungscoaching und Check-ins</li>
+                <li>Priorisierter Support per Nachricht</li>
+              </ul>
+              <button class="package-button mt-8 w-full rounded-full border border-neon px-5 py-3 font-black text-neon transition hover:bg-neon hover:text-carbon" data-package="Elite">
+                Paket anfragen
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontakt" class="bg-carbon px-5 py-20 sm:px-8">
+        <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr]">
+          <div>
+            <p class="text-sm font-black uppercase tracking-wide text-neon">Kontakt</p>
+            <h2 class="mt-3 text-4xl font-black tracking-normal sm:text-5xl">
+              Bereit fuer dein naechstes Level?
+            </h2>
+            <p class="mt-5 text-lg leading-8 text-zinc-300">
+              Schreib kurz, was du erreichen willst. Du bekommst zeitnah eine Rueckmeldung fuer ein
+              unverbindliches Erstgespraech.
+            </p>
+          </div>
+
+          <form id="contactForm" class="rounded-3xl border border-white/10 bg-graphite p-6 shadow-2xl sm:p-8">
+            <div class="grid gap-5 sm:grid-cols-2">
+              <label class="block">
+                <span class="mb-2 block text-sm font-bold text-zinc-200">Name</span>
+                <input
+                  required
+                  name="name"
+                  type="text"
+                  class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-neon focus:ring-4 focus:ring-neon/10"
+                  placeholder="Dein Name"
+                />
+              </label>
+              <label class="block">
+                <span class="mb-2 block text-sm font-bold text-zinc-200">E-Mail</span>
+                <input
+                  required
+                  name="email"
+                  type="email"
+                  class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-neon focus:ring-4 focus:ring-neon/10"
+                  placeholder="du@example.com"
+                />
+              </label>
+            </div>
+
+            <label class="mt-5 block">
+              <span class="mb-2 block text-sm font-bold text-zinc-200">Gewuenschtes Paket</span>
+              <select
+                id="packageSelect"
+                name="package"
+                class="w-full rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition focus:border-neon focus:ring-4 focus:ring-neon/10"
+              >
+                <option>Starter</option>
+                <option selected>Performance</option>
+                <option>Elite</option>
+              </select>
+            </label>
+
+            <label class="mt-5 block">
+              <span class="mb-2 block text-sm font-bold text-zinc-200">Nachricht</span>
+              <textarea
+                required
+                name="message"
+                rows="5"
+                class="w-full resize-none rounded-2xl border border-white/10 bg-carbon px-4 py-3 text-white outline-none transition placeholder:text-zinc-500 focus:border-neon focus:ring-4 focus:ring-neon/10"
+                placeholder="Was ist dein Ziel?"
+              ></textarea>
+            </label>
+
+            <button
+              type="submit"
+              class="mt-6 w-full rounded-full bg-neon px-8 py-4 text-base font-black text-carbon shadow-glow transition hover:bg-neon-soft focus:outline-none focus:ring-4 focus:ring-neon/30"
+            >
+              Anfrage senden
+            </button>
+            <p id="formMessage" class="mt-5 hidden rounded-2xl border border-neon/30 bg-neon/10 px-4 py-3 text-sm font-bold text-neon"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10 bg-zinc-950 px-5 py-8 text-center text-sm text-zinc-400 sm:px-8">
+      <p>© 2026 PulseForm Personal Training. Stark starten, dranbleiben, sichtbar wachsen.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
