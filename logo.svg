@@ -1,0 +1,11 @@
+<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Arealwerk Logo</title>
+  <desc id="desc">Abstraktes Logo mit modularen Flaechen und der Wortmarke Arealwerk.</desc>
+  <rect width="48" height="48" rx="12" fill="#202327"/>
+  <path d="M13 31.5L24 16.5L35 31.5" stroke="#7AAED0" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17.5 31.5H30.5" stroke="#E5E7EB" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M24 16.5V31.5" stroke="#4F8FBF" stroke-width="3.4" stroke-linecap="round"/>
+  <text x="62" y="31" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="0">
+    Arealwerk
+  </text>
+</svg>
